@@ -1,0 +1,22 @@
+#Main_Widget {
+    border-radius: 10px; 
+    border: 1px solid #ccc; 
+    background-color: #fff;
+}
+#closeButton {
+    border: 0px solid #ccc;
+    border-radius: 5px;
+}
+#closeButton:hover {
+    background: red;
+}
+
+#scrollArea { 
+    border: none; 
+}
+
+#contentWidget {
+    border: 0px solid #ccc; 
+    background-color: #fff;
+}
+

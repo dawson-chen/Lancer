@@ -1,0 +1,31 @@
+QScrollBar:horizontal, QScrollBar:vertical {
+    border: none;
+    background: lightgrey;
+    width: 8px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:horizontal, QScrollBar::handle:vertical {
+    background: darkgrey;
+    min-height: 20px;
+    border-radius: 4px;                                             
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::add-line:vertical {
+    background: none;
+    height: 0px;
+}
+
+QScrollBar::sub-line:horizontal, QScrollBar::sub-line:vertical {
+    background: none;
+    height: 0px;
+}
+
+QScrollBar::up-arrow:horizontal, QScrollBar::down-arrow:horizontal, QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+    background: none;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal, QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}

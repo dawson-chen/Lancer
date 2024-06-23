@@ -1,0 +1,11 @@
+markdown
+pygments
+PyQt6
+PyQt6-WebEngine
+pynput
+pyperclip
+comtypes
+pillow
+yaml
+pygetwindow
+openai
